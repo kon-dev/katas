@@ -25,6 +25,9 @@ Nachdenken sitzen.
 - [`nvim-lazyvim/`](nvim-lazyvim/README.md) — LazyVim-Workflows:
   Dateien finden, Projekt-Suche, LSP (Code-Intelligenz), Kommentare,
   Plugin-Verwaltung. Baut auf `nvim-basics/` auf.
+- [`git-basics/`](git-basics/README.md) — Git-Grundzyklus: status,
+  add, commit, push/pull, Branches, Rückgängig-Machen, Konflikte.
+  Läuft in einer lokalen Sandbox, ganz ohne echtes GitHub-Konto.
 
 Weitere Katas (Git, Shell, Regex, ...) kommen bei Bedarf dazu.
 
