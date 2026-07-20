@@ -1,0 +1,57 @@
+=== LEVEL 1: Modi (i, a, I, A, o, O, Esc) ===
+
+Hier steht ein Satz.
+
+=== LEVEL 2: Bewegen (h j k l, w b e, 0 $, gg G) ===
+
+>>> ZIEL 1 <<< Springe hierher mit w-, b- oder e-Bewegungen.
+
+Eine Zeile weiter unten, um mit j zu üben.
+Noch eine Zeile, um mit j weiterzukommen.
+
+    >>> ZIEL 2 <<< Diese Zeile beginnt mit Leerzeichen, übe 0 und $.
+
+Ganz normaler Text ohne Marker, einfach zum Durchlaufen mit w und b.
+Wort für Wort für Wort für Wort vorwärts und mit b wieder zurück.
+
+>>> ZIEL 3 <<< Springe mit gg zurück an den Dateianfang und dann mit G
+wieder hierher ans Ende der Level-2-Übungen.
+
+=== LEVEL 3: Löschen, Kopieren, Einfügen, Undo ===
+
+LÖSCHEN: diese ganze Zeile soll mit dd verschwinden.
+
+KOPIEREN: diese Zeile zweimal einfügen
+
+Normaler Text danach, damit du siehst, wo die Kopien landen.
+
+=== LEVEL 4: Suchen (/TODO, n, N) ===
+
+TODO: ersten Treffer finden
+Ein bisschen Text dazwischen, der nichts mit der Suche zu tun hat.
+TODO: zweiten Treffer finden
+Noch mehr Fülltext, damit die Suche über mehrere Zeilen geht.
+TODO: dritten und letzten Treffer finden
+
+=== LEVEL 5: Visual Mode (V, dann j j, dann d) ===
+
+MARKIEREN-BLOCK Zeile 1: diese Zeile soll mitgelöscht werden.
+MARKIEREN-BLOCK Zeile 2: diese Zeile soll mitgelöscht werden.
+MARKIEREN-BLOCK Zeile 3: diese Zeile soll mitgelöscht werden.
+Diese Zeile hier soll erhalten bleiben.
+
+=== LEVEL 6: Kombi-Übung ===
+
+Aufgabe: Suche das Wort ZIELWORT (mit /), lösche die gesamte Zeile,
+in der es steht (dd), und füge stattdessen per yy+p eine Kopie der
+Zeile direkt darunter ("Diese Zeile soll doppelt vorkommen.") ein.
+
+Diese Zeile soll doppelt vorkommen.
+Hier steht das ZIELWORT, diese Zeile muss weg.
+Diese Zeile bleibt unverändert stehen.
+
+=== ENDE ===
+
+Wenn du hier angekommen bist: Glückwunsch, ein Durchlauf geschafft.
+Verlasse mit :q! (nicht speichern) und öffne die Datei beim nächsten
+Mal wieder frisch mit "nvim playground.txt".
