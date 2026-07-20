@@ -28,6 +28,10 @@ Nachdenken sitzen.
 - [`git-basics/`](git-basics/README.md) — Git-Grundzyklus: status,
   add, commit, push/pull, Branches, Rückgängig-Machen, Konflikte.
   Läuft in einer lokalen Sandbox, ganz ohne echtes GitHub-Konto.
+- [`fish-basics/`](fish-basics/README.md) — Fish-Shell: Variablen,
+  and/or/Pipes, Kontrollstrukturen, eigene Funktionen, String-
+  Manipulation & Globbing. Alias vs. Abbreviation vs. Function erklärt
+  anhand der eigenen `conf.d`-Config.
 
 Weitere Katas (Git, Shell, Regex, ...) kommen bei Bedarf dazu.
 
